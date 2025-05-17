@@ -1,5 +1,5 @@
 <?php
-$db_path = __DIR__ . '/Test.db';
+$db_path = __DIR__ . '/um.db';
 
 try {
     $db = new PDO("sqlite:$db_path");
